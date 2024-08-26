@@ -1,0 +1,789 @@
+*{
+list-style: none;
+scroll-behavior: smooth;
+scroll-snap-align: center;
+
+}
+:root{
+    --main_color:#0d31fd;
+}
+::selection{
+    background-color: var(--main_color);
+    color: white;
+}
+  /* ===================about================ */
+/* main color */
+.mc{
+    color: var(--main_color);
+}
+
+.mt-10{
+margin-top: 100px !important;
+} 
+
+.pb-10{
+    padding-bottom: 100px;
+}
+
+  /* ===============fixed items ================ */
+
+.alwan{
+    top: 35%;
+    right: 0;
+    z-index: 12;
+    font-size: 20px;
+    padding: 5px 10px;
+    background: #777;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.totop{
+    bottom:  10px;
+    right: 10px;
+    z-index: 12;
+    font-size: 20px;
+    padding: 5px 10px;
+    background: #777;
+    border-radius: 50%;
+}
+
+
+.totop:hover{
+    background-color: var(--main_color);
+    cursor: pointer;
+}
+
+
+/* ================ navbar ================ */
+nav{
+    top: 0;
+    z-index: 111;
+}
+
+.nav-item{
+    margin: 0 15px;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+color: var(--main_color);
+}
+
+.nav_icons ul li{
+margin-left: 15px;
+font-size: 20px;
+}
+.nav_icons ul li i{
+    color: aliceblue;
+}
+
+.nav_icons ul li i:hover{
+    color:var(--main_color);
+}
+
+
+  /* ===================about================ */
+
+
+.home
+{
+background-image: url(../img/intro-bg.jpg);
+width: 100%;
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: fixed;
+background-blend-mode: multiply;
+background-attachment: fixed;
+background-color: rgba(0, 0, 0, 0.656);
+color: aliceblue;
+}
+
+.home-content{
+    text-align: center;
+    width: 100%;
+top: 200px;
+}
+
+@keyframes welcomean {
+0% {
+    content: "|";
+}
+0.69% {
+    content: "I|";
+}
+1.38% {
+    content: "I'|";
+}
+2.08% {
+    content: "I'm|";
+}
+2.7% {
+    content: "I'm |";
+}
+3.47% {
+    content: "I'm S|";
+}
+4.16% {
+    content: "I'm Si|";
+}
+4.86% {
+    content: "I'm Sim|";
+}
+5.5% {
+    content: "I'm Simo|"
+}
+6.25% {
+    content: "I'm Simon|"
+}
+6.94% {
+    content: "I'm Simone|";
+}
+7.63% {
+    content: "I'm Simone |";
+}
+8.33% {
+    content: "I'm Simone O|";
+}
+9.02% {
+    content: "I'm Simone Ol|";
+}
+9.72% {
+    content: "I'm Simone Oli|";
+}
+10.41% {
+    content: "I'm Simone Oliv|";
+}
+11.1% {
+    content: "I'm Simone Olivi|";
+}
+11.8% {
+    content: "I'm Simone Olivia|";
+}
+12.5% {
+    content: "I'm Simone Olivia.|";
+}
+13.19% {
+    content: "I'm Simone Olivia|";
+}
+13.8% {
+    content: "I'm Simone Olivi|";
+}
+14.58% {
+    content: "I'm Simone Oliv|";
+}
+15.27% {
+    content: "I'm Simone Oli|";
+}
+15.97% {
+    content: "I'm Simone Ol|";
+}
+15.66% {
+    content: "I'm Simone O|";
+}
+17.36% {
+    content: "I'm Simone |";
+}
+18.05% {
+    content: "I'm Simone|";
+}
+18.75% {
+    content: "I'm Simon |";
+}
+19.44% {
+    content: "I'm Simo|";
+}
+20.13% {
+    content: "I'm Sim|";
+}
+20.83% {
+    content: "I'm Si|";
+}
+21.52% {
+    content: "I'm S|";
+}
+22.2% {
+    content: "I'm |";
+}
+22.91% {
+    content: "I'm|";
+}
+23.61% {
+    content: "I'|";
+}
+24.3% {
+    content: "I|";
+}
+24.9% {
+    content: "|";
+}
+25% {
+    content: "I|";
+}
+25.69% {
+    content: "I|";
+}
+26.38% {
+    content: "I'|";
+}
+27.08% {
+    content: "I'm|";
+}
+27.7% {
+    content: "I'm |";
+}
+28.47% {
+    content: "I'm a|";
+}
+29.16% {
+    content: "I'm a |";
+}
+29.86% {
+    content: "I'm a F|";
+}
+30.5% {
+    content: "I'm a Fr|"
+}
+31.25% {
+    content: "I'm a Fre|"
+}
+31.94% {
+    content: "I'm a Free|";
+}
+32.63% {
+    content: "I'm a Freel|";
+}
+33.33% {
+    content: "I'm a Freela|";
+}
+34.02% {
+    content: "I'm a Freelan|";
+}
+34.72% {
+    content: "I'm a Freelanc|";
+}
+35.41% {
+    content: "I'm a Freelance|";
+}
+36.1% {
+    content: "I'm a Freelancer|";
+}
+36.8% {
+    content: "I'm a Freelancer.|";
+}
+37.5% {
+    content: "I'm a Freelancer.|";
+}
+38.19% {
+    content: "I'm a Freelancer|";
+}
+38.8% {
+    content: "I'm a Freelance|";
+}
+39.58% {
+    content: "I'm a Freelanc|";
+}
+40.27% {
+    content: "I'm a Freelan|";
+}
+40.97% {
+    content: "I'm a Freela|";
+}
+41.66% {
+    content: "I'm a Freel|";
+}
+42.36% {
+    content: "I'm a Free|";
+}
+43.05% {
+    content: "I'm a Fre|";
+}
+43.75% {
+    content: "I'm a Fr|";
+}
+44.44% {
+    content: "I'm a F|";
+}
+45.13% {
+    content: "I'm a |";
+}
+45.83% {
+    content: "I'm a|";
+}
+46.52% {
+    content: "I'm |";
+}
+47.2% {
+    content: "I'm|";
+}
+47.91% {
+    content: "I'|";
+}
+48.61% {
+    content: "I|";
+}
+49.3% {
+    content: "|";
+}
+49.9% {
+    content: "|";
+}
+50% {
+    content: "I|";
+}
+50.69% {
+    content: "I|";
+}
+51.38% {
+    content: "I'|";
+}
+52.08% {
+    content: "I'm|";
+}
+52.7% {
+    content: "I'm |";
+}
+53.47% {
+    content: "I'm a|";
+}
+54.16% {
+    content: "I'm a |";
+}
+54.86% {
+    content: "I'm a P|";
+}
+55.5% {
+    content: "I'm a Ph|"
+}
+56.25% {
+    content: "I'm a Pho|"
+}
+56.94% {
+    content: "I'm a Phot|";
+}
+57.63% {
+    content: "I'm a Photo|";
+}
+58.33% {
+    content: "I'm a Photog|";
+}
+59.02% {
+    content: "I'm a Photogr|";
+}
+59.72% {
+    content: "I'm a Photogra|";
+}
+60.41% {
+    content: "I'm a Photograp|";
+}
+61.1% {
+    content: "I'm a Photograph|";
+}
+61.8% {
+    content: "I'm a Photographe|";
+}
+62.5% {
+    content: "I'm a Photographer.|";
+}
+63.19% {
+    content: "I'm a Photographer|";
+}
+63.8% {
+    content: "I'm a Photographe|";
+}
+64.58% {
+    content: "I'm a Photograph|";
+}
+65.27% {
+    content: "I'm a Photograp|";
+}
+65.97% {
+    content: "I'm a Photogra|";
+}
+66.66% {
+    content: "I'm a Photogr|";
+}
+67.36% {
+    content: "I'm a Photog|";
+}
+68.05% {
+    content: "I'm a Photo|";
+}
+68.75% {
+    content: "I'm a Phot|";
+}
+69.44% {
+    content: "I'm a Pho|";
+}
+70.13% {
+    content: "I'm a Ph|";
+}
+70.83% {
+    content: "I'm a P|";
+}
+71.52% {
+    content: "I'm a|";
+}
+72.2% {
+    content: "I'm |";
+}
+72.91% {
+    content: "I'm|";
+}
+73.61% {
+    content: "I'|";
+}
+74.3% {
+    content: "I|";
+}
+74.9% {
+    content: "|";
+}
+75% {
+    content: "I|";
+}
+75.69% {
+    content: "I|";
+}
+76.38% {
+    content: "I'|";
+}
+77.08% {
+    content: "I'm|";
+}
+77.7% {
+    content: "I'm |";
+}
+78.47% {
+    content: "I'm a|";
+}
+79.16% {
+    content: "I'm a |";
+}
+79.86% {
+    content: "I'm a D|";
+}
+80.5% {
+    content: "I'm a De|"
+}
+81.25% {
+    content: "I'm a Des|"
+}
+81.94% {
+    content: "I'm a Desi|";
+}
+82.63% {
+    content: "I'm a Desig|";
+}
+83.33% {
+    content: "I'm a Design|";
+}
+84.02% {
+    content: "I'm a Designe|";
+}
+84.72% {
+    content: "I'm a Designer|";
+}
+85.41% {
+    content: "I'm a Designer.|";
+}
+86.1% {
+    content: "I'm a Designer.|";
+}
+86.8% {
+    content: "I'm a Designer.|";
+}
+87.5% {
+    content: "I'm a Designer.|";
+}
+88.19% {
+    content: "I'm a Designer|";
+}
+88.8% {
+    content: "I'm a Designe|";
+}
+89.58% {
+    content: "I'm a Design|";
+}
+90.27% {
+    content: "I'm a Desig|";
+}
+90.97% {
+    content: "I'm a Desi|";
+}
+91.66% {
+    content: "I'm a Des|";
+}
+92.36% {
+    content: "I'm a De|";
+}
+93.05% {
+    content: "I'm a D|";
+}
+93.75% {
+    content: "I'm a |"
+}
+94.44% {
+    content: "I'm a|"
+}
+95.13% {
+    content: "I'm |";
+}
+95.83% {
+    content: "I'm|";
+}
+96.52% {
+    content: "I'|";
+}
+97.2% {
+    content: "I|";
+}
+97.91% {
+    content: "I|";
+}
+98.61% {
+    content: "|";
+}
+99.3% {
+    content: "|";
+}
+100% {
+    content: "|";
+}
+}
+
+.welcome-animation::after {
+content: "";
+animation-name: welcomean;
+animation-duration: 15s;
+animation-iteration-count: infinite;
+font-weight: 900;
+color: aliceblue;
+}
+
+.h_btn{
+    color: var(--main_color);
+    border: var(--main_color) solid 2px;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #0000;
+}
+
+.h_btn:hover{
+    background-color: var(--main_color);
+    color: aliceblue;
+}
+
+
+@keyframes arrow_animation {
+    
+    0%{
+        padding-top: 2px;
+    }
+    10%{
+        padding-top: 4px;
+    }  
+    30%{
+        padding-top: 6px;
+    }
+    40%{
+        padding-top: 8px;
+    }
+    50%{
+        padding-top: 10px;
+    }  
+    60%{
+        padding-top: 11px;
+    }   
+    70%{
+        padding-top: 13px;
+    }  
+    80%{
+        padding-top: 15px;
+    }
+    90%{
+        padding-top: 16px;
+    }
+    100%{
+        padding-top: 17px;
+    }
+}
+.arrow{
+    left: 50%;
+    transform: translateX(-50%);
+    animation: arrow_animation 1s infinite;
+}
+
+  /* ===================about================ */
+
+/* backgrond text for sections */
+.kmm {
+margin-top: 100px;
+margin-bottom: 100px;
+text-align: center;
+position: relative;
+}
+
+.kmm::after{
+content: "ABOUT ME";
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+color: rgba(0, 0, 0, 0.1);
+font-size: 70px;
+font-weight: 700;
+}
+
+.kmm::before{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 7px;
+    border-bottom: var(--main_color) solid 3px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.a_btn{
+    color: #fff;
+    width: 180px;
+    height: 50px;
+    background-color: var(--main_color);
+    border-radius: 50px;
+    border: none;
+}
+
+.a_btn:hover{
+    background-color: var(--main_color);
+    color: aliceblue;
+}
+
+/* ===================What I Do================ */
+
+.what-i-do .kmm::after{
+content: "SERVICES";
+}
+
+/* ===================RESUME================ */
+
+/* overwrite backgrond text for resume */
+
+
+.resume .kmm::after{
+    content: "SUMMARY";
+    }
+
+.year{
+    background-color: var(--main_color);
+    width: max-content;
+    padding:0 5px;
+    border-radius: 5px;
+}
+
+.experience div, 
+.education div{
+    border: solid 2px rgba(0, 0, 0, 0.116);
+    border-radius: 10px;
+    padding: 20px;
+    animation-duration: 1s;
+}
+
+.resume button{
+    background-color: #0000;
+}
+
+.resume button:hover{
+    background-color: #999;
+}
+
+.progress-bar{
+    background-color: var(--main_color)!important;
+}
+
+
+/* =================portfolio============== */
+
+.portfolio .kmm::after{
+    content: "PORTFOLIO";
+    }
+
+.all_design{
+    color: var(--main_color);
+    border-bottom: var(--main_color) solid 2px;
+}
+
+.portfolio ul li:hover{
+    color: var(--main_color);
+    cursor: pointer;
+}
+
+.img-card {
+    overflow: hidden;
+}
+
+.img-card img{
+    transition-duration: 1s ;
+    border-radius: 30%;
+
+}
+
+.img-card:hover img{
+    border-radius: 18.5% !important ;
+    filter: blur(2px);
+    transition-duration: 1s ;
+    transform: scale(1.1);
+}
+
+.img-card:hover .img-content{
+    display: flex !important;
+    justify-content: center; 
+    align-items: center;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.600);
+    color: white;
+}
+
+/* ===================client================ */
+
+.client .kmm::after{
+    content: "TESTIMONIAL";
+}
+
+.client p i {
+    color: gold;
+}
+
+.dots
+{
+    border: var(--main_color) solid 2px;
+    border-radius: 100%;
+    font-size: 8px;
+    color: var(--main_color);
+}
+
+.dotsm
+{
+    border-radius: 100%;
+    font-size: 8px;
+}
+
+/* ===================contact================ */
+
+.contact .kmm::after{
+    content: "CONTACT";
+    }
+
+/* ===================footer================ */
+footer span:hover{
+    color: var(--main_color);
+    cursor: pointer;
+
+}
