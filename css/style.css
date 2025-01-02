@@ -628,7 +628,7 @@ nav {
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgba(0, 0, 0, 0.1);
-  font-size: clamp(50px, 8vw, 90px);
+  font-size: clamp(55px, 8vw, 90px);
   font-weight: 700;
 }
 
